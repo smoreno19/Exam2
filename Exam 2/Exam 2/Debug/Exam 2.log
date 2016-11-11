@@ -1,0 +1,14 @@
+﻿  City.cpp
+c:\users\silviaaa26\documents\exam 2\exam 2\city.cpp(33): error C2664: 'void std::vector<Citizen *,std::allocator<_Ty>>::push_back(Citizen *const &)': cannot convert argument 1 from 'Citizen' to 'Citizen *&&'
+          with
+          [
+              _Ty=Citizen *
+          ]
+  c:\users\silviaaa26\documents\exam 2\exam 2\city.cpp(33): note: Reason: cannot convert from 'Citizen' to 'Citizen *'
+  c:\users\silviaaa26\documents\exam 2\exam 2\city.cpp(33): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+c:\users\silviaaa26\documents\exam 2\exam 2\city.cpp(55): warning C4018: '<': signed/unsigned mismatch
+c:\users\silviaaa26\documents\exam 2\exam 2\city.cpp(84): warning C4018: '<': signed/unsigned mismatch
+c:\users\silviaaa26\documents\exam 2\exam 2\city.cpp(88): error C2659: '=': function as left operand
+c:\users\silviaaa26\documents\exam 2\exam 2\city.cpp(98): error C2371: 'newID': redefinition; different basic types
+  c:\users\silviaaa26\documents\exam 2\exam 2\city.cpp(96): note: see declaration of 'newID'
+c:\users\silviaaa26\documents\exam 2\exam 2\city.cpp(109): error C2659: '=': function as left operand
